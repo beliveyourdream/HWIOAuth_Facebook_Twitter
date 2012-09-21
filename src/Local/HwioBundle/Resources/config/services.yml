@@ -1,0 +1,7 @@
+parameters:
+#    local_hwio.example.class: Local\HwioBundle\Example
+
+services:
+#    local_hwio.example:
+#        class: %local_hwio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

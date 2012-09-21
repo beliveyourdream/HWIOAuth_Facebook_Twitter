@@ -1,0 +1,21 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     localhost
+    database_port:     ~
+    database_name:     database_name
+    database_user:     database_user
+    database_password: database_pass
+    
+    facebook_id:       facebook_id
+    facebook_secret:   facebook_secret
+    
+    twitter_id:        twitter_id
+    twitter_secret:    twitter_secret
+
+    mailer_transport:  smtp
+    mailer_host:       localhost
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisIsNotSecret

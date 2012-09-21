@@ -1,0 +1,131 @@
+{
+    "hash": "fd4d828740dfebbe73e4081ad9d1d97b",
+    "packages": [
+        {
+            "package": "doctrine/common",
+            "version": "2.3.0-RC2"
+        },
+        {
+            "package": "doctrine/dbal",
+            "version": "2.3.0-RC3"
+        },
+        {
+            "package": "doctrine/doctrine-bundle",
+            "version": "v1.0.0"
+        },
+        {
+            "package": "doctrine/orm",
+            "version": "2.3.0-RC3"
+        },
+        {
+            "package": "friendsofsymfony/user-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "2.0.x-dev",
+            "alias-version": "2.0.9999999.9999999-dev"
+        },
+        {
+            "package": "friendsofsymfony/user-bundle",
+            "version": "dev-master",
+            "source-reference": "34f1919ceab96339a8dc6ad7c2b00274a6f499f1",
+            "commit-date": "1347897534"
+        },
+        {
+            "package": "hwi/oauth-bundle",
+            "version": "dev-master",
+            "source-reference": "8397d4b0dd878bbac4abd60ab22480ce9ca7bb28",
+            "commit-date": "1346424865"
+        },
+        {
+            "package": "jms/aop-bundle",
+            "version": "1.0.0"
+        },
+        {
+            "package": "jms/cg",
+            "version": "1.0.0"
+        },
+        {
+            "package": "jms/di-extra-bundle",
+            "version": "1.1.0"
+        },
+        {
+            "package": "jms/metadata",
+            "version": "1.1.1"
+        },
+        {
+            "package": "jms/security-extra-bundle",
+            "version": "1.2.0"
+        },
+        {
+            "package": "kriswallsmith/assetic",
+            "version": "v1.1.0-alpha1"
+        },
+        {
+            "package": "kriswallsmith/buzz",
+            "version": "v0.7"
+        },
+        {
+            "package": "monolog/monolog",
+            "version": "1.2.1"
+        },
+        {
+            "package": "raulfraile/ladybug",
+            "version": "dev-master",
+            "source-reference": "9d03eab167c1b9f84f9a832c2e26140a780f6100",
+            "commit-date": "1342109959"
+        },
+        {
+            "package": "raulfraile/ladybug-bundle",
+            "version": "dev-master",
+            "source-reference": "a2aa7a445d575dc34cc500076b5f7acd24a2c2a6",
+            "commit-date": "1343206620"
+        },
+        {
+            "package": "sensio/distribution-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "sensio/framework-extra-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "sensio/generator-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "swiftmailer/swiftmailer",
+            "version": "v4.2.1"
+        },
+        {
+            "package": "symfony/assetic-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/monolog-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/swiftmailer-bundle",
+            "version": "v2.1.0"
+        },
+        {
+            "package": "symfony/symfony",
+            "version": "v2.1.1"
+        },
+        {
+            "package": "twig/extensions",
+            "version": "v1.0.0-alpha"
+        },
+        {
+            "package": "twig/twig",
+            "version": "v1.9.2"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "raulfraile/ladybug-bundle": 20
+    }
+}

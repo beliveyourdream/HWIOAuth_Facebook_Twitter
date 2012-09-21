@@ -1,0 +1,3 @@
+local_hwio_homepage:
+    pattern:  /
+    defaults: { _controller: LocalHwioBundle:Default:index }
