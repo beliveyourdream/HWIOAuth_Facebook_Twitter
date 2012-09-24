@@ -48,6 +48,7 @@ class HwiProvider implements UserProviderInterface, OAuthAwareUserProviderInterf
     
     public function loadUserByOAuthUserResponse(UserResponseInterface $response) {
       $resourceOwnerName = $response->getResourceOwner()->getName();
+      //ladybug_dump_die($this->countFriends($this->getFriends($response)));
       
       switch ($resourceOwnerName) {
         case "facebook_custom":
@@ -149,6 +150,24 @@ class HwiProvider implements UserProviderInterface, OAuthAwareUserProviderInterf
         }
 
         return $this->properties[$resourceOwnerName];
+    }
+    
+    protected function getFriends(UserResponseInterface $response)
+    {
+      $accessToken = $response->getAccessToken();
+      $url = 'https://graph.facebook.com/me/friends';
+      $url .= (false !== strpos($url, '?') ? '&' : '?').http_build_query(array(
+          'access_token' => $accessToken
+          ));
+      $content = file_get_contents($url);
+      $friends_data = json_decode($content, true);
+      return $friends_data;
+    }
+    
+    protected function countFriends($friendsData)
+    {
+      $number = count($friendsData['data']);
+      return $number;
     }
 }
 
